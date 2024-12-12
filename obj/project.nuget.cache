@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "QTe3VUDEVzIDfnrDDtIH5/7zV909QUDr6ZpKhqdHgf90vQ2xrwZo6dOqY5ut2s2ktB/Ynns4ZHm3nAeEIVREzw==",
+  "success": true,
+  "projectFilePath": "/home/marcelo-zuza/Área de Trabalho/ContribuindoProjeto/SpamClassifier/SpamClassifier.csproj",
+  "expectedPackageFiles": [
+    "/home/marcelo-zuza/.nuget/packages/microsoft.ml/4.0.0/microsoft.ml.4.0.0.nupkg.sha512",
+    "/home/marcelo-zuza/.nuget/packages/microsoft.ml.cpumath/4.0.0/microsoft.ml.cpumath.4.0.0.nupkg.sha512",
+    "/home/marcelo-zuza/.nuget/packages/microsoft.ml.dataview/4.0.0/microsoft.ml.dataview.4.0.0.nupkg.sha512",
+    "/home/marcelo-zuza/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/home/marcelo-zuza/.nuget/packages/system.codedom/8.0.0/system.codedom.8.0.0.nupkg.sha512",
+    "/home/marcelo-zuza/.nuget/packages/system.collections.immutable/8.0.0/system.collections.immutable.8.0.0.nupkg.sha512",
+    "/home/marcelo-zuza/.nuget/packages/system.memory/4.6.0/system.memory.4.6.0.nupkg.sha512",
+    "/home/marcelo-zuza/.nuget/packages/system.numerics.tensors/8.0.0/system.numerics.tensors.8.0.0.nupkg.sha512",
+    "/home/marcelo-zuza/.nuget/packages/system.reflection.emit.lightweight/4.7.0/system.reflection.emit.lightweight.4.7.0.nupkg.sha512",
+    "/home/marcelo-zuza/.nuget/packages/system.threading.channels/8.0.0/system.threading.channels.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
