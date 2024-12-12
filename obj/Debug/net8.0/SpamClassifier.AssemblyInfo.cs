@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SpamClassifier")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+05a60bbcd1d386c2955c91644466cde4f7721bf3")]
 [assembly: System.Reflection.AssemblyProductAttribute("SpamClassifier")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SpamClassifier")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

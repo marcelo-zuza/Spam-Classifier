@@ -23,11 +23,11 @@ namespace SpamClassifier
         public class SpamPrediction
         {
             [ColumnName("PredictedLabel")]
-            public bool IsSpan { get; set; }
+            public uint PredictedLabel { get; set; }
 
 
             public float Probability { get; set; }
-            public float Score { get; set; }
+            public float[] Score { get; set; }
         }
 
 
@@ -57,7 +57,7 @@ namespace SpamClassifier
                     labelColumnName: "LabelKey",
                     featureColumnName: "Features"
                 )).Append(mlContext.Transforms.Conversion.MapKeyToValue(
-                    outputColumnName: nameof(SpamPrediction.IsSpan), 
+                    outputColumnName: "LabelValue", 
                     inputColumnName: "PredictedLabel"));
             
             // dividir os dados entre treino e teste
@@ -86,9 +86,10 @@ namespace SpamClassifier
 
             var sample = new MessageData { Message = "Você ganhou um prêmio! Clique aqui para receber."};
             var result = predictor.Predict(sample);
+            bool isSpam = result.PredictedLabel == 1;
 
             Console.WriteLine($"Mensagem: {sample.Message}");
-            Console.WriteLine($"É Spam? {result.IsSpan} (Probabilidade: {result.Probability:P2})");
+            Console.WriteLine($"É Spam? {(isSpam ? "sim" : "não")}");
 
         }
     }
